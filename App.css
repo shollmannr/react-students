@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#student-roll {
+  display: flex;
+}
+
+.student {
+  width: 100%;
+  background-color: lightblue;
+  margin-right: 1em;
+  padding: 1em;
+}
+
+.student-name {
+  margin-bottom: 0.5em;
+}
+
+.student-bio {
+  margin-bottom: 1em;
+}
+
+.score {
+  font-weight: 700;
+}
